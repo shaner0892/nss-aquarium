@@ -1,21 +1,31 @@
 body {
     background-image: url("https://media.istockphoto.com/photos/blue-sea-water-background-atlantic-picture-id1136870172?k=20&m=1136870172&s=612x612&w=0&h=RqoBWSJgLFOmakzfjD0Tm0yZiQVqiDiDunZyo-1vB1w=");
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.pics {
-    width: 40%;
-    height: 40%;
+.fish-pics {
+    width: 45%;
+    height: 45%;
     margin: 5px;
+}
+
+.travel-pics {
+    width: 45%;
+    height: 45%;
+    margin: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
     text-align: center;
+    font-size: 70px;
     border: black solid 8px;
     margin: 5px;
     height: 100px;
     background-color: rgb(118, 208, 224);
 }
-
 h2 {
     text-align: center;
     border: black solid 5px;
@@ -45,12 +55,14 @@ h2 {
 .fish-list {
     border: black solid 2px;
     margin: 5px;
+    padding: 2px;
     height: 30%;
     display: flex;
 }
 
-.fish-collection {
-    padding-right: 5px;
+p {
+    text-align: center;
+    margin: 0%;
 }
 
 ul {
