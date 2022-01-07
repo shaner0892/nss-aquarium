@@ -1,0 +1,63 @@
+body {
+    background-image: url("https://media.istockphoto.com/photos/blue-sea-water-background-atlantic-picture-id1136870172?k=20&m=1136870172&s=612x612&w=0&h=RqoBWSJgLFOmakzfjD0Tm0yZiQVqiDiDunZyo-1vB1w=");
+}
+
+.pics {
+    width: 40%;
+    height: 40%;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+    border: black solid 8px;
+    margin: 5px;
+    height: 100px;
+    background-color: rgb(118, 208, 224);
+}
+
+h2 {
+    text-align: center;
+    border: black solid 5px;
+    margin: 5px;
+    background-color: khaki;
+    padding: 8px;
+}
+
+.column1 {
+    border: black solid 8px;
+    margin: 10px;
+    width: 40%;
+    height: 750px;
+    flex-wrap: wrap;
+    background-color: rgb(137, 192, 123);
+}
+
+.column {
+    border: black solid 8px;
+    margin: 10px;
+    width: 30%;
+    height: 750px;
+    flex-wrap: wrap;
+    background-color: rgb(137, 192, 123);
+}
+
+.fish-list {
+    border: black solid 2px;
+    margin: 5px;
+    height: 30%;
+    display: flex;
+}
+
+.fish-collection {
+    padding-right: 5px;
+}
+
+ul {
+    margin: 5px;
+    padding-right: 5px;
+    width: 70%;
+}
+.aquarium {
+    display: flex;
+}
