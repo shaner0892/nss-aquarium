@@ -17,7 +17,7 @@ const database = {
             food: "algae"
         },
         {
-            image: "https://img.thepets.net/wp-content/uploads/discus-fish-large.jpg",
+            image: "https://www.petlandtexas.com/wp-content/uploads/2020/01/Petland_Texas_Flowerhorn_Cichlid.jpg",
             name: "Reggie",
             species: "Butterfly fish",
             length: 1,

@@ -4,9 +4,11 @@ body {
 }
 
 .fish-pics {
-    width: 50%;
-    height: 50%;
+    width: 100px;
+    height: 100px;
     margin: 5px;
+    display: block;
+    /* align-content: center; */
 }
 
 .travel-pics {
@@ -34,15 +36,6 @@ h2 {
     padding: 8px;
 }
 
-.column1 {
-    border: black solid 8px;
-    margin: 10px;
-    width: 40%;
-    height: 750px;
-    flex-wrap: wrap;
-    background-color: rgba(137, 192, 123, 0.7);
-}
-
 .column {
     border: black solid 8px;
     margin: 10px;
@@ -58,6 +51,10 @@ h2 {
     padding: 2px;
     height: 30%;
     display: flex;
+}
+
+.fish-info {
+    font-size: 15px;
 }
 
 p {
