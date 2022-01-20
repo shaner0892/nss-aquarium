@@ -4,14 +4,14 @@ body {
 }
 
 .fish-pics {
-    width: 45%;
-    height: 45%;
+    width: 50%;
+    height: 50%;
     margin: 5px;
 }
 
 .travel-pics {
-    width: 45%;
-    height: 45%;
+    width: 40%;
+    height: 40%;
     margin: 5px;
     display: block;
     margin-left: auto;
@@ -24,13 +24,13 @@ h1 {
     border: black solid 8px;
     margin: 5px;
     height: 100px;
-    background-color: rgb(118, 208, 224);
+    background-color: rgba(118, 208, 224, 0.664);
 }
 h2 {
     text-align: center;
     border: black solid 5px;
     margin: 5px;
-    background-color: khaki;
+    background-color: rgba(240, 230, 140, 0.685);
     padding: 8px;
 }
 
@@ -40,7 +40,7 @@ h2 {
     width: 40%;
     height: 750px;
     flex-wrap: wrap;
-    background-color: rgb(137, 192, 123);
+    background-color: rgba(137, 192, 123, 0.7);
 }
 
 .column {
@@ -49,7 +49,7 @@ h2 {
     width: 30%;
     height: 750px;
     flex-wrap: wrap;
-    background-color: rgb(137, 192, 123);
+    background-color: rgb(137, 192, 123, 0.7);
 }
 
 .fish-list {
