@@ -1,28 +1,36 @@
 const database = {
     fish: [
         {
-            image: "https://i.pinimg.com/originals/03/43/54/034354547e15a230812ce191f62b7311.jpg",
+            image: "https://thumbs.dreamstime.com/b/angel-fish-swimming-coral-reefs-red-sea-161386641.jpg",
             name: "Bart",
             species: "Angelfish",
             length: 3,
             location: "South America",
-            food: "crustaceans"
+            food: "Crustaceans"
         },
         {
-            image: "https://img.thepets.net/wp-content/uploads/discus-fish-large.jpg",
+            image: "https://aquadiction.world/img/profile/discus1.webp",
             name: "Angie",
             species: "Discus fish",
             length: 2,
             location: "South America",
-            food: "algae"
+            food: "Algae"
         },
         {
-            image: "https://www.petlandtexas.com/wp-content/uploads/2020/01/Petland_Texas_Flowerhorn_Cichlid.jpg",
+            image: "https://a-z-animals.com/media/copperband-butterfly-fish.jpg",
             name: "Reggie",
             species: "Butterfly fish",
             length: 1,
             location: "Indian Ocean",
-            food: "plankton"
+            food: "Plankton"
+        },
+        {
+            image: "https://www.aquariumsource.com/wp-content/uploads/2020/06/hypancistrus-zebra.jpg",
+            name: "Jordan",
+            species: "Zebra Pleco",
+            length: 1,
+            location: "Brazil",
+            food: "Bloodworms"
         }
     ]
 }
