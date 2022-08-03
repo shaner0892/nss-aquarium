@@ -32,8 +32,24 @@ const database = {
             location: "Brazil",
             food: "Bloodworms"
         }
+    ],
+    travelTips: [
+        {
+            tip: "Gila trout, red velvetfish, kuhli loach, moray eel lemon shark lemon sole gulf menhaden."
+        },
+        {
+            tip: "Soldierfish sea lamprey, half-gill treefish Pacific lamprey sand stargazer mustard eel Celebes rainbowfish."
+        },
+        {
+            tip: "Pufferfish shad codlet denticle herring threadfin bream sea chub velvetfish pomfret damselfish pickerel."
+        }
     ]
 }
+
+export const getTravelTips = () => {
+    return database.travelTips.map(travelTips => ({...travelTips}))
+}
+    
 export const getFish = () => {
     return database.fish.map(fish => ({...fish}))
 }
