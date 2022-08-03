@@ -1,4 +1,3 @@
-// Import the function that returns a copy of the fish array
 import { getFish } from "../database.js"
 
 export const FishList = () => {
@@ -14,11 +13,11 @@ export const FishList = () => {
         // Why is there a backtick used for this string?
         htmlString += `<section class="fish card">
             <div><img  class="fish-pics image--card" src="${fish.image}" /></div>
-            <div class="fish-info">${fish.name}</div>
-            <div class="fish-info">${fish.species}</div>
-            <div class="fish-info">${fish.length}</div>
-            <div class="fish-info">${fish.location}</div>
-            <div class="fish-info">${fish.food}</div>
+            <div class="fish-info"><b>Name:</b> ${fish.name}</div>
+            <div class="fish-info"><b>Species:</b> ${fish.species}</div>
+            <div class="fish-info"><b>Length:</b> ${fish.length}</div>
+            <div class="fish-info"><b>Location:</b> ${fish.location}</div>
+            <div class="fish-info"><b>Food:</b> ${fish.food}</div>
         </section>`
     }
     htmlString += `</article>`

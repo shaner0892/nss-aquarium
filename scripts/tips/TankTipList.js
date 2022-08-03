@@ -1,16 +1,16 @@
-import { getTravelTips } from "../database.js"
+import { getTankTips } from "../database.js"
 
-export const TravelTipList = () => {
+export const TankTipList = () => {
     // Invoke the function that you imported from the database module
-    const travelTips = getTravelTips()
+    const tankTips = getTankTips()
 
     // Start building a string filled with HTML syntax
-    let htmlString = '<ul class="travelTipList">'
+    let htmlString = '<ul class="tankTipList">'
 
     // Create HTML representations of each tip here
-    for (const tip of travelTips) {
+    for (const tip of tankTips) {
         htmlString += `<section class="tip card">
-            <li class="tip-info"> ${tip.tip}</li>
+            <li class="tip-info">${tip.tip}</li>
             <br>
         </section>`
     }

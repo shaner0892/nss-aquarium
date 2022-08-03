@@ -43,13 +43,46 @@ const database = {
         {
             tip: "Pufferfish shad codlet denticle herring threadfin bream sea chub velvetfish pomfret damselfish pickerel."
         }
+    ],
+    tankTips: [
+        {
+            tip: "Tank maintenance: Coelacanth, ghost carp weeverfish kokanee Old World knifefish collared carpetshark flagfish Rainbow trout, snailfish footballfish. Goblin shark Sacramento blackfish longnose chimaera ide piranha speckled trout."
+        },
+        {
+            tip: "Salinity: Scythe butterfish Arctic char wahoo: ridgehead; banjo catfish electric ray, drum pencilsmelt spotted danio tompot blenny northern lampfish roundhead? Swamp-eel oldwife threadsail sábalo."
+        },
+        {
+            tip: "Temperature: Modoc sucker opah sunfish. Grayling mudfish scaleless black dragonfish, deep sea anglerfish Long-finned sand diver nibbler Atlantic trout whale catfish pelican gulper livebearer saury, African glass catfish porcupinefish."
+        }
+    ],
+    locations: [
+        {
+            image_url: "https://www.roadaffair.com/wp-content/uploads/2017/09/sardinia-italy-shutterstock_697395712.jpg",
+            location: "The Jungles of Bolivia"
+        },
+        {
+            image_url: "https://i.pinimg.com/736x/82/fd/12/82fd126cd8b5b13bc1e78aa888d7b271--vacation-spots-dream-vacations.jpg",
+            location: "Gulf of Chiriqui"
+        },
+        {
+            image_url: "https://media.nomadicmatt.com/maldivestop001.jpg",
+            location: "Tierra del Fuego"
+        }
     ]
 }
 
 export const getTravelTips = () => {
     return database.travelTips.map(travelTips => ({...travelTips}))
 }
-    
+
+export const getTankTips = () => {
+    return database.tankTips.map(tankTips => ({...tankTips}))
+}
+
+export const getLocations = () => {
+    return database.locations.map(locations => ({...locations}))
+}
+
 export const getFish = () => {
     return database.fish.map(fish => ({...fish}))
 }
