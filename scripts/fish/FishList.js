@@ -15,7 +15,7 @@ export const FishList = () => {
             <div><img  class="fish-pics image--card" src="${fish.image}" /></div>
             <div class="fish-info"><b>Name:</b> ${fish.name}</div>
             <div class="fish-info"><b>Species:</b> ${fish.species}</div>
-            <div class="fish-info"><b>Length:</b> ${fish.length}</div>
+            <div class="fish-info"><b>Length:</b> ${fish.length} cm</div>
             <div class="fish-info"><b>Location:</b> ${fish.location}</div>
             <div class="fish-info"><b>Food:</b> ${fish.food}</div>
         </section>`

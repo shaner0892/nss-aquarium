@@ -38,7 +38,7 @@ h2 {
     margin: 5px;
     background-color: rgba(240, 230, 140, 0.685);
     padding: 8px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .column {
@@ -55,18 +55,22 @@ h2 {
     height: auto;
     display: flex;
     text-align: center;
+    font-size: 22px;
+    padding: 10px;
 }
 
 p {
     text-align: center;
     margin: 0%;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 ul {
     margin: 5px;
     width: 75%;
     padding-bottom: 50px;
-    font-size: large;
+    font-size: 22px;
 }
 
 .aquarium {
