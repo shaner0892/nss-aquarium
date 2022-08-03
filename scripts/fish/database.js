@@ -4,7 +4,7 @@ const database = {
             image: "https://thumbs.dreamstime.com/b/angel-fish-swimming-coral-reefs-red-sea-161386641.jpg",
             name: "Bart",
             species: "Angelfish",
-            length: 3,
+            length: 5,
             location: "South America",
             food: "Crustaceans"
         },
@@ -20,7 +20,7 @@ const database = {
             image: "https://a-z-animals.com/media/copperband-butterfly-fish.jpg",
             name: "Reggie",
             species: "Butterfly fish",
-            length: 1,
+            length: 3,
             location: "Indian Ocean",
             food: "Plankton"
         },
